@@ -10,7 +10,19 @@ Inspect and search Instagram follower and following lists, unfollow selected acc
 
 For example, you can ask it to “remove my 100 most recent followers”. It will first check whether Instagram's visible list makes that selection clear, show you the exact accounts, and wait for your confirmation. Larger requests are handled in batches of up to 10 accounts.
 
-Install only this skill:
+## Install
+
+### Codex Desktop
+
+In a Codex chat, ask:
+
+> Use `$skill-installer` to install `instagram-manager-in-browser` from `mustafa-ramax/agent-skills`, path `skills/instagram-manager-in-browser`.
+
+It will be available on your next turn. Invoke it with `$instagram-manager-in-browser`.
+
+### Other compatible agents
+
+Run this command in a terminal:
 
 ```sh
 npx skills add mustafa-ramax/agent-skills --skill instagram-manager-in-browser
@@ -29,3 +41,4 @@ The first release focuses on follower and following relationships. The Instagram
 ## Licence
 
 This repository is available under the MIT licence. See [LICENSE](LICENSE).
+
